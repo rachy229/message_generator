@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "example": "Good morning Rachel, and welcome to The Hotel. Room 123 is now ready.",
+        "template": "`{greeting}` `{guest.firstName}`, and welcome to `{company.company}`. Room `{guest.reservation.roomNumber}` is now ready."
+    },
+
+    {
+        "id": 2,
+        "example": "Good morning Rachel and thank you for choosing The Hotel! Please make yourself at home in room 123. We hope you enjoy your stay in Minneapolis.",
+        "template": "{greeting} {selectGuest.firstName}, and thank you for choosing {selectCompany.company}! Please make yourself at home in Room {selectGuest.reservation.roomNumber}. We hope you enjoy your stay in {selectCompany.city}!"
+
+    }
+]

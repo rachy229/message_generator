@@ -1,0 +1,26 @@
+.message-output {
+    margin: 25px;
+    padding: 15px;
+    min-height: 200px;
+    background-color: antiquewhite;
+}
+
+.heading {
+    background-color: hotpink;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.input-div {
+    text-align: left;
+    padding-left: 50px;
+    margin: 20px;
+}
+
+.input-label {
+    margin-right: 10px;
+}
+
+.message-input {
+    width: 50%;
+}
